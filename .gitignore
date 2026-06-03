@@ -1,2 +1,6 @@
 .DS_Store
 *.compressed.mp4
+
+# Wrangler
+.wrangler/
+.dev.vars

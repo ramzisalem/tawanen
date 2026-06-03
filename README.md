@@ -118,7 +118,7 @@ To switch to [Formspree](https://formspree.io) instead, replace the form `action
 Web-optimized media lives under `assets/`:
 
 - **Images**: JPEG, max 1920px wide (~130–450 KB each) in `assets/images/`
-- **Videos**: H.264 in `assets/video/` (`opening.mp4` 6.4 MB, `timeline.mp4` 30 MB, `insta.mp4` 6.6 MB)
+- **Videos**: H.264 in `assets/video/` (`opening.mp4` 6.4 MB, `timeline.mp4` ~20 MB, `insta.mp4` 6.6 MB). Keep each file under 25 MB for Cloudflare Workers.
 
 To re-compress videos:
 
