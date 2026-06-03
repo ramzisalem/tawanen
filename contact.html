@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Tawanen ASBL — collaborations, workshops, and partnership opportunities in Brussels.">
+  <meta property="og:title" content="Contact — Tawanen">
+  <link rel="icon" type="image/png" href="logo.png">
+  <title>Contact — Tawanen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+Arabic:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body data-page-title="contact.pageTitle" data-page-desc="contact.intro" class="has-offset">
+
+  <header class="site-header scrolled">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Tawanen"><img src="logo.png" alt="Tawanen" class="logo-img" width="1769" height="1206"></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <ul class="nav-links">
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="about.html" data-i18n="nav.about">About</a></li>
+          <li><a href="tawanigraph.html" data-i18n="nav.tawānigraph">Tawānigraph</a></li>
+          <li><a href="tawanoscope.html" data-i18n="nav.tawanoscope">Tawanoscope</a></li>
+          <li><a href="film-club.html" data-i18n="nav.filmClub">Film Club</a></li>
+          <li><a href="urban-temporalities.html" data-i18n="nav.urbanTemporalities">Urban Temporalities</a></li>
+          <li><a href="beff-2027.html" data-i18n="nav.beff">BEFF 2027</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <label class="lang-switcher">
+          <select class="lang-select" aria-label="Language">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="nl">Nederlands</option>
+            <option value="ar">العربية</option>
+          </select>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" style="padding-top: calc(var(--nav-height) + var(--space-xl));">
+      <div class="container">
+        <p class="section-label reveal" data-i18n="nav.contact">Contact</p>
+        <h1 class="section-title reveal" data-i18n="contact.pageTitle">Contact</h1>
+        <p class="section-intro reveal" data-i18n="contact.intro">Reach out for collaborations, workshop inquiries, or partnership opportunities.</p>
+
+        <div class="contact-grid reveal" style="margin-top: 3rem;">
+          <div>
+            <h3 style="margin-bottom: 1.5rem;" data-i18n="contact.info.title">Get in Touch</h3>
+            <dl class="info-list">
+              <div class="info-item">
+                <dt data-i18n="contact.phone">Phone</dt>
+                <dd><a href="tel:+32491229247">+32 491 22 92 47</a></dd>
+              </div>
+              <div class="info-item">
+                <dt data-i18n="contact.email">Email</dt>
+                <dd><a href="mailto:tawanenbxl@gmail.com">tawanenbxl@gmail.com</a></dd>
+              </div>
+              <div class="info-item">
+                <dt data-i18n="contact.address">Address</dt>
+                <dd data-i18n="contact.addressValue">Rue de Laeken 157, 1000 Brussel</dd>
+              </div>
+            </dl>
+
+            <h3 style="margin-top: 2rem; margin-bottom: 1rem;" data-i18n="contact.social.title">Follow Us</h3>
+            <ul class="info-list">
+              <li><a href="https://www.youtube.com/@TawanenBxl" target="_blank" rel="noopener noreferrer">YouTube — @TawanenBxl</a></li>
+              <li><a href="https://instagram.com/tawanenbxl" target="_blank" rel="noopener noreferrer">Instagram — @tawanenbxl</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 style="margin-bottom: 1.5rem;" data-i18n="contact.form.title">Send a Message</h3>
+            <form class="contact-form" action="https://formsubmit.co/tawanenbxl@gmail.com" method="POST">
+              <input type="hidden" name="_subject" value="Tawanen website — new message">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" id="form-next" value="">
+              <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+              <div class="form-status" id="form-status" hidden role="status"></div>
+              <div class="form-group">
+                <label for="name" data-i18n="contact.form.name">Name</label>
+                <input type="text" id="name" name="name" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="email" data-i18n="contact.form.email">Email</label>
+                <input type="email" id="email" name="email" required autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="subject" data-i18n="contact.form.subject">Subject</label>
+                <select id="subject" name="subject">
+                  <option value="general" data-i18n="contact.form.subject.general">General inquiry</option>
+                  <option value="workshop" data-i18n="contact.form.subject.workshop">Workshop / Lab</option>
+                  <option value="production" data-i18n="contact.form.subject.production">Production</option>
+                  <option value="partnership" data-i18n="contact.form.subject.partnership">Partnership / BEFF</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message" data-i18n="contact.form.message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-filled" data-i18n="contact.form.submit">Send message</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="partner-cta reveal">
+          <h3 data-i18n="contact.partner.title">Partner with Tawanen</h3>
+          <p data-i18n="contact.partner.text">Interested in co-developing BEFF 2027 or collaborating on audiovisual projects?</p>
+          <a href="mailto:tawanenbxl@gmail.com?subject=Partnership%20inquiry" class="btn" data-i18n="beff.partner.cta">Partner with us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="Tawanen"><img src="logo.png" alt="Tawanen" class="logo-img" width="1769" height="1206"></a>
+          <p class="footer-tagline" data-i18n="footer.tagline">Cinema as quiet defense.</p>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.navigate">Navigate</h4>
+          <ul>
+            <li><a href="about.html" data-i18n="nav.about">About</a></li>
+            <li><a href="tawanigraph.html" data-i18n="nav.tawānigraph">Tawānigraph</a></li>
+            <li><a href="tawanoscope.html" data-i18n="nav.tawanoscope">Tawanoscope</a></li>
+            <li><a href="film-club.html" data-i18n="nav.filmClub">Film Club</a></li>
+            <li><a href="urban-temporalities.html" data-i18n="nav.urbanTemporalities">Urban Temporalities</a></li>
+            <li><a href="beff-2027.html" data-i18n="nav.beff">BEFF 2027</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.connect">Connect</h4>
+          <ul>
+            <li><a href="mailto:tawanenbxl@gmail.com">tawanenbxl@gmail.com</a></li>
+            <li><a href="tel:+32491229247">+32 491 22 92 47</a></li>
+            <li><a href="https://www.youtube.com/@TawanenBxl" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.rights">© 2026 Tawanen ASBL. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/contact-form.js"></script>
+</body>
+</html>
