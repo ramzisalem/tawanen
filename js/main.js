@@ -66,11 +66,22 @@
     });
   }
 
+  function initApplyLinks() {
+    var config = window.TawanenConfig || {};
+    var url = config.applyFormUrl;
+    if (!url || url.indexOf("REPLACE_WITH_YOUR_FORM_ID") !== -1) return;
+
+    document.querySelectorAll("[data-apply-link]").forEach(function (link) {
+      link.href = url;
+    });
+  }
+
   function init() {
     initHeader();
     initMobileMenu();
     initReveal();
     setActiveNav();
+    initApplyLinks();
   }
 
   if (document.readyState === "loading") {

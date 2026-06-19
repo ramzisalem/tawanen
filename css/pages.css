@@ -235,6 +235,31 @@
   text-align: center;
 }
 
+.apply-cta {
+  padding: var(--space-xl) var(--space-lg);
+  background: var(--color-charcoal);
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+
+.apply-cta .section-label {
+  margin-bottom: var(--space-sm);
+}
+
+.apply-cta .section-title {
+  margin-bottom: var(--space-md);
+  max-width: 28ch;
+  margin-inline: auto;
+}
+
+.apply-cta p {
+  color: var(--color-muted);
+  margin-bottom: var(--space-md);
+  max-width: 52ch;
+  margin-inline: auto;
+}
+
 .partner-cta h3 {
   margin-bottom: var(--space-sm);
 }
