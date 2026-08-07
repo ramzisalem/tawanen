@@ -6,6 +6,6 @@
    * Replace with your form link: Form → Send → link icon, or Share from Drive.
    */
   window.TawanenConfig = {
-    applyFormUrl: "https://docs.google.com/forms/d/e/REPLACE_WITH_YOUR_FORM_ID/viewform"
+    applyFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSer5fJEvkcJW6fFpIrQcAVW4DzGPKh7B7iu3jdYTOxm1_A1ag/viewform?usp=header"
   };
 })();
