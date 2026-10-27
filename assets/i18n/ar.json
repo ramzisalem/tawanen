@@ -45,7 +45,7 @@
   "projects.urban.date": "2026–2027",
   "projects.beff.title": "مهرجان بروكسل للسينما التجريبية",
   "projects.beff.text": "أربعة أيام من السينما التجريبية والفن المرئي والعروض والحوار — نبحث عن شركاء.",
-  "projects.beff.date": "فبراير 2027",
+  "projects.beff.date": "25–28 فبراير 2027",
   "projects.viewProject": "عرض المشروع",
 
   "apply.label": "انضم إلينا",
@@ -160,6 +160,10 @@
   "beff.audience.text": "فنانون، صنّاع أفلام، طلاب، متخصصون ثقافيون وجمهور فضولي.",
   "beff.partner.title": "كن شريكاً",
   "beff.partner.text": "نبحث عن شركاء لاستضافة وتطوير BEFF 2027.",
+  "beff.submit.label": "دعوة مفتوحة",
+  "beff.submit.title": "أفلام قصيرة وطويلة وفن مرئي",
+  "beff.submit.text": "التقديم مجاني. آخر موعد: 15 ديسمبر 2026.",
+  "beff.submit.cta": "قدّم فيلمك",
   "beff.partner.cta": "كن شريكاً",
 
   "contact.pageTitle": "اتصل بنا",

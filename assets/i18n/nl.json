@@ -45,7 +45,7 @@
   "projects.urban.date": "2026–2027",
   "projects.beff.title": "Brussels Experimental Film Festival",
   "projects.beff.text": "Vier dagen experimentele cinema, videokunst, performances en dialoog — op zoek naar partners.",
-  "projects.beff.date": "Februari 2027",
+  "projects.beff.date": "25–28 februari 2027",
   "projects.viewProject": "Bekijk project",
 
   "apply.label": "Doe mee",
@@ -160,6 +160,10 @@
   "beff.audience.text": "Kunstenaars, filmmakers, studenten, cultuurprofessionals en nieuwsgierig publiek.",
   "beff.partner.title": "Partner worden",
   "beff.partner.text": "We zoeken partners om BEFF 2027 mede te ontwikkelen.",
+  "beff.submit.label": "Oproep",
+  "beff.submit.title": "Kortfilms, langspeelfilms en videokunst",
+  "beff.submit.text": "Inzendingen zijn gratis. Deadline: 15 december 2026.",
+  "beff.submit.cta": "Dien je film in",
   "beff.partner.cta": "Partner worden",
 
   "contact.pageTitle": "Contact",

@@ -45,7 +45,7 @@
   "projects.urban.date": "2026–2027",
   "projects.beff.title": "Brussels Experimental Film Festival",
   "projects.beff.text": "Quatre jours de cinéma expérimental, art vidéo, performances et dialogue — à la recherche de partenaires.",
-  "projects.beff.date": "Février 2027",
+  "projects.beff.date": "25–28 février 2027",
   "projects.viewProject": "Voir le projet",
 
   "apply.label": "Rejoignez-nous",
@@ -160,6 +160,10 @@
   "beff.audience.text": "Artistes, cinéastes, étudiants, professionnels culturels et public curieux.",
   "beff.partner.title": "Devenir partenaire",
   "beff.partner.text": "Nous recherchons des partenaires pour co-développer BEFF 2027.",
+  "beff.submit.label": "Appel à films",
+  "beff.submit.title": "Courts métrages, longs métrages et art vidéo",
+  "beff.submit.text": "Les soumissions sont gratuites. Date limite : 15 décembre 2026.",
+  "beff.submit.cta": "Soumettre votre film",
   "beff.partner.cta": "Devenir partenaire",
 
   "contact.pageTitle": "Contact",

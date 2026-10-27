@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Brussels Experimental Film Festival (BEFF) 2027 — four days of experimental cinema, video art, and dialogue in Brussels.">
   <meta property="og:title" content="BEFF 2027 — Brussels Experimental Film Festival">
-  <meta property="og:image" content="logo.png">
+  <meta property="og:image" content="assets/images/beff-poster.jpg">
   <link rel="icon" type="image/png" href="logo.png">
   <title>BEFF 2027 — Tawanen</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,13 +49,16 @@
   </header>
 
   <main>
-    <section class="page-hero">
-      <div class="page-hero-bg">
-        <img src="assets/images/av-performance.jpg" alt="Audiovisual performance with neon green and red lighting">
-      </div>
-      <div class="page-hero-content container">
-        <p class="section-label" data-i18n="beff.subtitle">BEFF 2027</p>
-        <h1 data-i18n="beff.pageTitle">Brussels Experimental Film Festival</h1>
+    <section class="page-hero beff-hero">
+      <div class="container">
+        <div class="beff-hero-grid">
+          <img class="beff-logo" src="assets/images/beff-logo.jpg" alt="" width="1024" height="1024">
+          <img class="beff-poster" src="assets/images/beff-poster.jpg" alt="BEFF 2027 poster: open call for short and feature films, image and sound, video art, and live AV in Brussels, February 2027" width="1024" height="682">
+        </div>
+        <div class="beff-hero-copy">
+          <p class="section-label" data-i18n="beff.subtitle">BEFF 2027</p>
+          <h1 data-i18n="beff.pageTitle">Brussels Experimental Film Festival</h1>
+        </div>
       </div>
     </section>
 
@@ -64,7 +67,7 @@
         <div class="project-meta reveal">
           <div class="project-meta-item">
             <span>Date</span>
-            <span data-i18n="projects.beff.date">February 2027</span>
+            <span data-i18n="projects.beff.date">25–28 February 2027</span>
           </div>
           <div class="project-meta-item">
             <span>Duration</span>
@@ -74,6 +77,13 @@
             <span>Organizer</span>
             <span>Tawanen ASBL</span>
           </div>
+        </div>
+
+        <div class="partner-cta open-call-cta reveal">
+          <p class="section-label" data-i18n="beff.submit.label">Open call</p>
+          <h3 data-i18n="beff.submit.title">Short films, features, and video art</h3>
+          <p data-i18n="beff.submit.text">Submissions are free. Deadline: 15 December 2026.</p>
+          <a href="https://forms.gle/1F8i3EiyHABEFPoU7" class="btn btn-filled" data-film-submit target="_blank" rel="noopener noreferrer" data-i18n="beff.submit.cta">Submit your film</a>
         </div>
 
         <div class="project-section reveal">
@@ -175,6 +185,7 @@
     </div>
   </footer>
 
+  <script src="js/config.js"></script>
   <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
   <script src="js/videos.js"></script>

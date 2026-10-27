@@ -74,6 +74,12 @@
     document.querySelectorAll("[data-apply-link]").forEach(function (link) {
       link.href = url;
     });
+
+    if (config.filmSubmitUrl) {
+      document.querySelectorAll("[data-film-submit]").forEach(function (link) {
+        link.href = config.filmSubmitUrl;
+      });
+    }
   }
 
   function init() {
