@@ -651,3 +651,32 @@
   border-radius: 0;
   box-shadow: none;
 }
+
+
+/* BEFF cover: reduced, centered artwork */
+.beff-hero .beff-hero-grid {
+  width: min(88%, 1120px);
+  margin: clamp(1.5rem, 4vw, 3rem) auto 0;
+  border-radius: 14px;
+}
+.beff-hero .beff-sunset-hero {
+  display: block;
+  width: 100%;
+  max-width: 1120px;
+  max-height: 68vh;
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain;
+  border-radius: 14px;
+}
+@media (max-width: 800px) {
+  .beff-hero .beff-hero-grid {
+    width: calc(100% - 2rem);
+    margin-top: 1.25rem;
+    border-radius: 12px;
+  }
+  .beff-hero .beff-sunset-hero {
+    max-height: 54vh;
+    border-radius: 12px;
+  }
+}
