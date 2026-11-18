@@ -626,3 +626,28 @@
     font-size: clamp(2rem, 9vw, 3.2rem);
   }
 }
+
+
+/* BEFF cover artwork carries its own logo and typography — do not overlay duplicate copy */
+.beff-hero {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background: #050508;
+}
+.beff-hero .beff-hero-grid {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  overflow: hidden;
+}
+.beff-hero .beff-sunset-hero {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 0;
+  box-shadow: none;
+}
