@@ -538,3 +538,91 @@
     font-size: clamp(2.55rem, 12vw, 4.4rem);
   }
 }
+
+
+/* BEFF hero correction: keep artwork and page title in separate layers */
+.beff-hero {
+  position: relative;
+  isolation: isolate;
+  display: block;
+  padding: 0 0 clamp(2.5rem, 6vw, 5rem);
+  overflow: hidden;
+  background: #050508;
+}
+.beff-hero::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: url("../assets/images/beff-poster.jpg") center / cover no-repeat;
+  opacity: .12;
+  filter: blur(3px);
+}
+.beff-hero .beff-hero-grid {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: none;
+  min-height: 0;
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+}
+.beff-hero .beff-hero-grid::after {
+  content: none;
+}
+.beff-hero .beff-sunset-hero {
+  position: relative;
+  inset: auto;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: min(76vh, 900px);
+  object-fit: contain;
+  object-position: center;
+  border-radius: 0;
+  box-shadow: none;
+}
+.beff-hero .beff-hero-copy {
+  position: relative;
+  z-index: 1;
+  width: min(100% - 2.5rem, 1120px);
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: clamp(2rem, 5vw, 4rem) 0 0;
+  color: #fff;
+  text-align: left;
+}
+.beff-hero .beff-hero-copy .section-label {
+  color: #ff6678;
+  letter-spacing: .24em;
+}
+.beff-hero .beff-hero-copy h1 {
+  max-width: 16ch;
+  margin: .35rem 0 1rem;
+  color: #fff;
+  font-size: clamp(2.2rem, 5vw, 4.5rem);
+  line-height: 1.08;
+  letter-spacing: -.035em;
+  text-shadow: none;
+}
+.beff-hero-date {
+  margin: 0;
+  color: rgba(255,255,255,.78);
+  font-size: 1rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+@media (max-width: 800px) {
+  .beff-hero .beff-sunset-hero {
+    max-height: none;
+  }
+  .beff-hero .beff-hero-copy {
+    width: calc(100% - 2rem);
+    padding-top: 1.75rem;
+  }
+  .beff-hero .beff-hero-copy h1 {
+    max-width: 14ch;
+    font-size: clamp(2rem, 9vw, 3.2rem);
+  }
+}
