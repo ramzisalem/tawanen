@@ -680,3 +680,37 @@
     border-radius: 12px;
   }
 }
+
+
+/* BEFF: use the uploaded sunset artwork as a subtle, faded page backdrop */
+.beff-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: #08090d;
+}
+.beff-hero::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: -18px;
+  background-image: url("../assets/images/beff-sunset.jpg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .18;
+  filter: blur(5px) saturate(.78);
+  transform: scale(1.03);
+}
+.beff-hero::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(5,5,8,.32), rgba(5,5,8,.72));
+  pointer-events: none;
+}
+.beff-hero .beff-hero-grid {
+  position: relative;
+  z-index: 1;
+}
