@@ -2,7 +2,6 @@
   "meta.siteName": "Tawanen",
   "meta.tagline": "Cinema as a soft, steady defense against noise, speed, and forgetting.",
   "meta.description": "Tawanen ASBL — a network at the intersection of audiovisual arts, cinema, culture, and politics in Brussels.",
-
   "nav.home": "Home",
   "nav.about": "About",
   "nav.tawānigraph": "Tawānigraph",
@@ -12,19 +11,15 @@
   "nav.urbanTemporalities": "Urban Temporalities",
   "nav.beff": "BEFF 2027",
   "nav.contact": "Contact",
-
   "hero.title.line1": "A mass movement",
   "hero.title.line2": "All reaching for light.",
   "hero.lead": "Tawanen slows time in a world rushing forward — revealing quiet identities, hidden stories, and images that resist erasure.",
   "hero.cta.about": "Discover Tawanen",
   "hero.cta.projects": "Our Projects",
-
   "mission.title": "Our Mission",
   "mission.text": "We are a network at the intersection of audiovisual arts, cinema, culture, and politics. We create a space that produces and presents images as tools of understanding and resistance. We develop workshops and projects exploring identities and cultures, making content that challenges one-sided narratives and reveals hidden layers. The image, shaped with honesty and a slow rhythm in a fast world, becomes a quiet defense against propaganda.",
-
   "vision.title": "Our Vision",
   "vision.text": "An image that precedes ready-made narratives, restores balance to time, and returns depth and meaning to the human experience.",
-
   "pillars.title": "Our Pillars",
   "pillars.intro": "Three interconnected practices rooted in craft, attention, and collective presence.",
   "pillars.tawānigraph.title": "Tawānigraph",
@@ -37,36 +32,30 @@
   "pillars.filmClub.subtitle": "Screening & Expansion",
   "pillars.filmClub.text": "Screenings and conversations that expand cinema beyond the screen, building community around the moving image.",
   "pillars.learnMore": "Learn more",
-
   "projects.title": "Featured Projects",
   "projects.intro": "Current initiatives shaping Brussels' experimental audiovisual landscape.",
   "projects.urban.title": "Urban Temporalities",
   "projects.urban.text": "An audiovisual creation lab exploring time as lived experience in Brussels — from workshop to collective film.",
   "projects.urban.date": "2026–2027",
-  "projects.beff.title": "Brussels Experimental Film Festival",
+  "projects.beff.title": "Brussels Experimental Film Festival & Auteur Cinema",
   "projects.beff.text": "Four days of experimental cinema, video art, performances, and dialogue — seeking partners to co-develop.",
-  "projects.beff.date": "25–28 February 2027",
+  "projects.beff.date": "24–28 February 2027",
   "projects.viewProject": "View project",
-
   "apply.label": "Join Us",
   "apply.title": "Apply for programmes & events",
   "apply.text": "Interested in our workshops, labs, film club, or festival programmes? Fill in the application form and we'll be in touch.",
   "apply.cta": "Apply now",
-
   "gallery.title": "In Motion",
   "gallery.intro": "Images from our workshops, screenings, and productions.",
-
   "video.title": "Watch",
   "video.intro": "Films and videos from our YouTube channel.",
   "video.viewChannel": "View all on YouTube",
-
   "about.pageTitle": "About Tawanen",
   "about.intro": "A cinema and audiovisual practice rooted in craft, attention, and collective presence.",
   "about.manifesto": "Working across production, post-production, labs, and screenings, Tawanen explores how body, movement, and material distill into image, and how a slow gaze can cut through noise.",
   "about.asbl": "Tawanen ASBL is a Brussels-based cultural organization operating at the intersection of cinema, sound, and visual arts. We serve as a platform and network for filmmakers and audiovisual practitioners, with a focus on the relationship between image and sound, urban environments, and cinema as a tool for perception and reflection.",
   "about.quote": "Cinema as a soft, steady defense against noise, speed, and forgetting.",
   "about.quoteCite": "Tawanen",
-
   "tawānigraph.pageTitle": "Tawānigraph",
   "tawānigraph.subtitle": "Production & Post-Production",
   "tawānigraph.intro": "Tawānigraph is where raw material becomes image — through production and post-production rooted in craft and attention.",
@@ -78,7 +67,6 @@
   "tawānigraph.offerings.3": "Sound design and mixing",
   "tawānigraph.offerings.4": "Collaborative film projects",
   "tawānigraph.cta": "Start a project",
-
   "tawanoscope.pageTitle": "Tawanoscope",
   "tawanoscope.subtitle": "Labs & Workshops",
   "tawanoscope.intro": "Tawanoscope opens spaces for exploration — where participants develop new ways of seeing, listening, and making.",
@@ -90,7 +78,6 @@
   "tawanoscope.offerings.3": "Inclusive film programmes",
   "tawanoscope.offerings.4": "Collaborative research projects",
   "tawanoscope.cta": "Join a workshop",
-
   "filmClub.pageTitle": "Tawān Film Club",
   "filmClub.subtitle": "Screening & Expansion",
   "filmClub.intro": "The Film Club extends cinema beyond the screen — through screenings, conversations, and collective viewing experiences.",
@@ -102,7 +89,6 @@
   "filmClub.offerings.3": "Video art exhibitions",
   "filmClub.offerings.4": "Community film programmes",
   "filmClub.cta": "Attend a screening",
-
   "urban.pageTitle": "Urban Temporalities",
   "urban.subtitle": "Audiovisual Creation Lab & Film Production",
   "urban.intro": "Urban Temporalities explores time as lived experience — shaped by rhythm, perception, and presence in Brussels.",
@@ -131,10 +117,9 @@
   "urban.output.text": "A collective 20–40 minute audiovisual film, premiered publicly and distributed to festivals. Opening programme of BEFF 2027.",
   "urban.partner.title": "Partner",
   "urban.partner.text": "In collaboration with Pianofabriek city lab.",
-
-  "beff.pageTitle": "Brussels Experimental Film Festival",
+  "beff.pageTitle": "Brussels Experimental Film Festival & Auteur Cinema",
   "beff.subtitle": "BEFF 2027",
-  "beff.intro": "Four days of experimental cinema, video art, performances, and dialogue in Brussels.",
+  "beff.intro": "Five days of experimental cinema, auteur cinema, video art, performances, and dialogue in Brussels.",
   "beff.about.title": "About the Festival",
   "beff.about.text": "BEFF is a new festival dedicated to experimental cinema and video art, organized by Tawanen ASBL. We seek partners to host and co-develop this inaugural edition.",
   "beff.programme.title": "Programme",
@@ -165,7 +150,6 @@
   "beff.submit.text": "Submissions are free. Deadline: 15 December 2026.",
   "beff.submit.cta": "Submit your film",
   "beff.partner.cta": "Partner with us",
-
   "contact.pageTitle": "Contact",
   "contact.intro": "Reach out for collaborations, workshop inquiries, or partnership opportunities.",
   "contact.info.title": "Get in Touch",
@@ -186,7 +170,6 @@
   "contact.form.submit": "Send message",
   "contact.partner.title": "Partner with Tawanen",
   "contact.partner.text": "Interested in co-developing BEFF 2027 or collaborating on audiovisual projects? We'd love to hear from you.",
-
   "footer.tagline": "Cinema as quiet defense.",
   "footer.navigate": "Navigate",
   "footer.connect": "Connect",
