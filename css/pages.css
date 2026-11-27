@@ -653,31 +653,36 @@
 }
 
 
-/* BEFF cover: reduced, centered artwork */
+/* BEFF cover: full-bleed artwork, edge to edge */
 .beff-hero .beff-hero-grid {
-  width: min(88%, 1120px);
-  margin: clamp(1.5rem, 4vw, 3rem) auto 0;
-  border-radius: 14px;
+  position: relative;
+  width: 100vw;
+  max-width: none;
+  margin: 0 calc(50% - 50vw);
+  border-radius: 0;
+  overflow: hidden;
 }
 .beff-hero .beff-sunset-hero {
   display: block;
   width: 100%;
-  max-width: 1120px;
-  max-height: 68vh;
+  max-width: none;
   height: auto;
-  margin: 0 auto;
-  object-fit: contain;
-  border-radius: 14px;
+  max-height: none;
+  margin: 0;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0;
 }
 @media (max-width: 800px) {
   .beff-hero .beff-hero-grid {
-    width: calc(100% - 2rem);
-    margin-top: 1.25rem;
-    border-radius: 12px;
+    width: 100vw;
+    margin: 0 calc(50% - 50vw);
+    border-radius: 0;
   }
   .beff-hero .beff-sunset-hero {
-    max-height: 54vh;
-    border-radius: 12px;
+    width: 100%;
+    max-height: none;
+    border-radius: 0;
   }
 }
 
