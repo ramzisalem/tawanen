@@ -304,6 +304,34 @@
     grid-template-columns: 1fr;
   }
 
+  /* Let the Open Call artwork break out of the text card on mobile */
+  .beff-spotlight {
+    display: block;
+    padding: 0;
+    overflow: visible;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    gap: 0;
+  }
+
+  .beff-spotlight .beff-poster {
+    width: 100vw;
+    max-width: none;
+    margin-inline: calc(50% - 50vw);
+    height: auto;
+    border-radius: 0;
+    object-fit: contain;
+  }
+
+  .beff-spotlight-copy {
+    padding: clamp(1.25rem, 5vw, 2rem);
+    background: var(--color-charcoal);
+    border: 1px solid var(--color-border);
+    border-top: 0;
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  }
+
   .beff-logo {
     width: min(100%, 240px);
     margin-inline: auto;
