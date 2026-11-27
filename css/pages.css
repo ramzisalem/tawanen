@@ -747,3 +747,18 @@
   position: relative;
   z-index: 1;
 }
+
+
+/* Homepage: let the brand film sit behind the Open Call text, not as a poster/player */
+.beff-spotlight {
+  grid-template-columns: minmax(0, 1fr);
+  background: rgba(24, 24, 28, .76);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.beff-spotlight .beff-poster {
+  display: none;
+}
+.beff-spotlight-copy {
+  min-width: 0;
+}
