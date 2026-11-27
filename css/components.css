@@ -666,7 +666,7 @@
 /* Tawanen BXL logo video — subtle, full-site atmospheric background */
 .brand-motion {
   position: fixed;
-  z-index: -1;
+  z-index: 0;
   inset: 0;
   display: block;
   padding: 0;
@@ -697,4 +697,13 @@
   border-radius: 0;
   background: #050507;
   box-shadow: none;
+}
+
+
+/* Keep the ambient brand film behind every interactive page element */
+.site-header,
+main,
+footer {
+  position: relative;
+  z-index: 1;
 }
