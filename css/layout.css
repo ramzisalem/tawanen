@@ -1,4 +1,6 @@
 body {
+  position: relative;
+  isolation: isolate;
   font-family: var(--font-body);
   font-size: 1rem;
   line-height: 1.7;
